@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<EntityTypes>
+	<Entity name="FatHuman" 			HitPoints = "10" LineOfSightDistance = "7" WalkSpeed = "0.7" RunSpeed = "0.6" Endurance = "2" Recovery = "5" 	sprite="fathuman.png">
+          <TransformationProbability  NormalZombie = "10" LineOfSightDistance = "7" FatZombie = "90" FastZombie = "0" SuperZombie = "0" />
+  </Entity>
+	<Entity name="NormalHuman" 			HitPoints = "6" LineOfSightDistance = "7" WalkSpeed = "0.5" RunSpeed = "0.3" Endurance = "3" Recovery = "1" 	sprite="normalhuman.png">
+          <TransformationProbability  NormalZombie = "90" FatZombie = "1" FastZombie = "9" SuperZombie = "0" />
+  </Entity>
+	<Entity name="FastHuman" 			HitPoints = "4" LineOfSightDistance = "7" WalkSpeed = "0.30" RunSpeed = "0.1" Endurance = "5" Recovery = "1" 	sprite="fasthuman.png">
+          <TransformationProbability  NormalZombie = "0" FatZombie = "0" FastZombie = "100" SuperZombie = "0" />
+  </Entity>
+	<Entity name="PistolHuman" 			HitPoints = "10" LineOfSightDistance = "7" WalkSpeed = "0.5" RunSpeed = "0.3" Endurance = "3" Recovery = "1" 	sprite="pistolhuman.png">
+          <TransformationProbability  NormalZombie = "50" FatZombie = "20" FastZombie = "30" SuperZombie = "0" />
+  </Entity>
+	<Entity name="ShotGunHuman" 		HitPoints = "10" LineOfSightDistance = "7" WalkSpeed = "0.5" RunSpeed = "0.3" Endurance = "3" Recovery = "1" 	sprite="shotgunhuman.png">
+          <TransformationProbability  NormalZombie = "50" FatZombie = "30" FastZombie = "20" SuperZombie = "70" />
+  </Entity>
+	<Entity name="MachineGunHuman" 		HitPoints = "10" LineOfSightDistance = "7" WalkSpeed = "0.7" RunSpeed = "0.4" Endurance = "3" Recovery = "1" 	sprite="machinegunhuman.png">
+          <TransformationProbability  NormalZombie = "50" FatZombie = "20" FastZombie = "20" SuperZombie = "10" />
+  </Entity>
+	<Entity name="MechHuman" 			HitPoints = "20" LineOfSightDistance = "7" WalkSpeed = "0.70" RunSpeed = "0.4" Endurance = "10" Recovery = "1"	sprite="mechuman.png">
+          <TransformationProbability  NormalZombie = "0" FatZombie = "0" FastZombie = "30" SuperZombie = "70" />
+  </Entity>
+	<Entity name="Tank" 				HitPoints = "50" LineOfSightDistance = "7" WalkSpeed = "0.6" RunSpeed = "0.6" Endurance = "100" Recovery = "1"	sprite="tank.png">
+          <TransformationProbability  NormalZombie = "0" FatZombie = "0" FastZombie = "0" SuperZombie = "0" />
+  </Entity>
+<!-- ============HERE BE ZOMBIES========= -->
+	<Entity name="FatZombie" 		HitPoints = "15" LineOfSightDistance = "7" WalkSpeed = "0.7" RunSpeed = "0.5" Endurance = "4" Recovery = ".2"		sprite="fatzombie.png"/>
+	<Entity name="NormalZombie" 	HitPoints = "10" LineOfSightDistance = "7" WalkSpeed = "0.5" RunSpeed = "0.3" Endurance = "4" Recovery = ".5"		sprite="normalzombie.png"/>
+	<Entity name="FastZombie" 		HitPoints = "8" LineOfSightDistance = "7" WalkSpeed = "0.3" RunSpeed = "0.1" Endurance = "4" Recovery = "1"		sprite="fastzombie.png"/>
+	<Entity name="SuperZombie" 		HitPoints = "80" LineOfSightDistance = "7" WalkSpeed = "0.6" RunSpeed = "0.4" Endurance = "4" Recovery = "1"		sprite="superzombie.png"/>
+</EntityTypes>
+<!-- ============WEAPONZ============ -->
+<Weapons>
+	<Weapon name="Fists"					damagePerHit="1" range="1" rateOfFire="0.3" hitChance="100" numShots="-1" 	blastRadius="0" blastDamage="0"/>	
+	<Weapon name="BigZombieFists"			damagePerHit="8" range="1" rateOfFire="0.3" hitChance="100" numShots="-1" 	blastRadius="0" blastDamage="0"/>	
+	<Weapon name="Pistol"					damagePerHit="3" range="5" rateOfFire="0.4"  hitChance="100"  numShots="20" 	blastRadius="0" blastDamage="0"/>	
+	<Weapon name="Shotgun"					damagePerHit="8" range="3" rateOfFire="0.8"  hitChance="100"  numShots="8"  	blastRadius="2" blastDamage="2"/>
+	<Weapon name="MachineGun"				damagePerHit="2" range="4" rateOfFire="0.1"  hitChance="100"  numShots="100" blastRadius="0" blastDamage="0"/>
+	<Weapon name="Cannon"					damagePerHit="20" range="12" rateOfFire="1.2" hitChance="100" numShots="40" 	blastRadius="4" blastDamage="5"/>
+	<Weapon name="FlameThrower"				damagePerHit="8" range="1" rateOfFire="0.4" hitChance="100" numShots="-1" 	blastRadius="0" blastDamage="0"/>
+	<Weapon name="MechFists"				damagePerHit="4" range="1" rateOfFire="0.1" hitChance="100" numShots="-1" 	blastRadius="0" blastDamage="0"/>
+	<Weapon name="HumanFists"				damagePerHit="1" range="1" rateOfFire="0.2" hitChance="100" numShots="-1" 	blastRadius="0" blastDamage="0"/>
+	<Weapon name="HumanFatFists"			damagePerHit="3" range="1" rateOfFire="0.65" hitChance="100" numShots="-1" 	blastRadius="0" blastDamage="0"/>
+</Weapons>

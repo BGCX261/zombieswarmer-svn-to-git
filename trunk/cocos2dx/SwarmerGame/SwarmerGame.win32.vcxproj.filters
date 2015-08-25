@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Classes\AppDelegate.cpp" />
+    <ClCompile Include="Classes\Entities\EntityBase.cpp" />
+    <ClCompile Include="Classes\Entities\EntityFactory.cpp" />
+    <ClCompile Include="Classes\Entities\EntitySwarm.cpp" />
+    <ClCompile Include="Classes\MainMenuScene.cpp" />
+    <ClCompile Include="Classes\MapGenTest.cpp" />
+    <ClCompile Include="Classes\Map\GameMap.cpp" />
+    <ClCompile Include="Classes\Map\MapNode.cpp" />
+    <ClCompile Include="win32\main.cpp" />
+    <ClCompile Include="Classes\StateMachine\ZombieStateMachine.cpp" />
+    <ClCompile Include="Classes\Map\StarNode.cpp" />
+    <ClCompile Include="Classes\Entities\MobileEntity.cpp" />
+    <ClCompile Include="Classes\Map\CityGenerator.cpp" />
+    <ClCompile Include="Classes\Entities\Weapon.cpp" />
+    <ClCompile Include="Classes\StateMachine\HumanStateMachine.cpp" />
+    <ClCompile Include="Classes\SwarmGame.cpp" />
+    <ClCompile Include="Classes\Map\ParkGenerator.cpp" />
+    <ClCompile Include="Classes\Map\DiamondSquare.cpp" />
+    <ClCompile Include="Classes\Game\GameHUD.cpp" />
+    <ClCompile Include="Classes\Game\GameState.cpp" />
+    <ClCompile Include="Classes\Game\HealthBar.cpp" />
+    <ClCompile Include="Classes\Game\MapLayer.cpp" />
+    <ClCompile Include="Classes\Game\SpriteEntity.cpp" />
+    <ClCompile Include="Classes\Entities\Zombies\ZombieBase.cpp" />
+    <ClCompile Include="Classes\Entities\Humans\HumanBase.cpp" />
+    <ClCompile Include="Classes\Entities\xmlDataLoader.cpp" />
+    <ClCompile Include="tinyxml\tinystr.cpp" />
+    <ClCompile Include="tinyxml\tinyxml.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\AppDelegate.h" />
+    <ClInclude Include="Classes\Entities\Entities.h" />
+    <ClInclude Include="Classes\Entities\EntityBase.h" />
+    <ClInclude Include="Classes\Entities\EntityFactory.h" />
+    <ClInclude Include="Classes\Entities\EntitySwarm.h" />
+    <ClInclude Include="Classes\Entities\StaticEntity.h" />
+    <ClInclude Include="Classes\MainMenuScene.h" />
+    <ClInclude Include="Classes\MapGenTest.h" />
+    <ClInclude Include="Classes\Map\GameMap.h" />
+    <ClInclude Include="Classes\Map\MapNode.h" />
+    <ClInclude Include="Classes\StateMachine\StateMachine.h" />
+    <ClInclude Include="win32\main.h" />
+    <ClInclude Include="win32\resource.h" />
+    <ClInclude Include="Classes\StateMachine\ZombieStateMachine.h" />
+    <ClInclude Include="Classes\Map\Position.h" />
+    <ClInclude Include="Classes\Map\StarNode.h" />
+    <ClInclude Include="Classes\Entities\EntityTraits.h" />
+    <ClInclude Include="Classes\Entities\MobileEntity.h" />
+    <ClInclude Include="Classes\Entities\Weapon.h" />
+    <ClInclude Include="Classes\Map\CityGenerator.h" />
+    <ClInclude Include="Classes\Map\MapGeneratorBase.h" />
+    <ClInclude Include="Classes\StateMachine\HumanStateMachine.h" />
+    <ClInclude Include="Classes\SwarmGame.h" />
+    <ClInclude Include="Classes\Map\ParkGenerator.h" />
+    <ClInclude Include="Classes\Map\DiamondSquare.h" />
+    <ClInclude Include="Classes\Game\GameHUD.h" />
+    <ClInclude Include="Classes\Game\GameState.h" />
+    <ClInclude Include="Classes\Game\HealthBar.h" />
+    <ClInclude Include="Classes\Game\MapLayer.h" />
+    <ClInclude Include="Classes\Game\SpriteEntity.h" />
+    <ClInclude Include="Classes\Entities\FatHuman.h" />
+    <ClInclude Include="Classes\Entities\NormalHuman.h" />
+    <ClInclude Include="Classes\Entities\FatHuman.h" />
+    <ClInclude Include="Classes\Entities\NormalHuman.h" />
+    <ClInclude Include="Classes\Entities\ContainerEntity.h" />
+    <ClInclude Include="Classes\Entities\Zombies\FastZombie.h" />
+    <ClInclude Include="Classes\Entities\Zombies\FatZombie.h" />
+    <ClInclude Include="Classes\Entities\Zombies\NormalZombie.h" />
+    <ClInclude Include="Classes\Entities\Zombies\SuperZombie.h" />
+    <ClInclude Include="Classes\Entities\Zombies\ZombieBase.h" />
+    <ClInclude Include="Classes\Entities\Humans\FastHuman.h" />
+    <ClInclude Include="Classes\Entities\Humans\FatHuman.h" />
+    <ClInclude Include="Classes\Entities\Humans\HumanBase.h" />
+    <ClInclude Include="Classes\Entities\Humans\MachineGunHuman.h" />
+    <ClInclude Include="Classes\Entities\Humans\MechHuman.h" />
+    <ClInclude Include="Classes\Entities\Humans\NormalHuman.h" />
+    <ClInclude Include="Classes\Entities\Humans\PistolHuman.h" />
+    <ClInclude Include="Classes\Entities\Humans\ShotgunHuman.h" />
+    <ClInclude Include="Classes\Entities\Humans\Tank.h" />
+    <ClInclude Include="Classes\Entities\xmlDataLoader.h" />
+    <ClInclude Include="tinyxml\tinystr.h" />
+    <ClInclude Include="tinyxml\tinyxml.h" />
+    <ClInclude Include="tinyxml\tinystr.h" />
+    <ClInclude Include="tinyxml\tinyxml.h" />
+    <ClInclude Include="Classes\Entities\MobileProperties.h" />
+    <ClInclude Include="Classes\Entities\xmlDataLoader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="win32\SwarmerGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\CloseNormal.png" />
+    <None Include="Resource\CloseSelected.png" />
+    <None Include="Resource\HelloWorld.png" />
+    <None Include="win32\res\SwarmerGame.ico" />
+    <None Include="SwarmerGame.win32.vcxproj" />
+    <None Include="Resource\fathuman.png" />
+  </ItemGroup>
+</Project>
